@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D291DD482CDE6C0500893191 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D291DD472CDE6C0500893191 /* FirebaseAuth */; };
+		D291DD4A2CDE6C0500893191 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D291DD492CDE6C0500893191 /* FirebaseDatabase */; };
+		D291DD4C2CDE6C0500893191 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D291DD4B2CDE6C0500893191 /* FirebaseFirestore */; };
+		D2EF64842CFB70FC00321C7D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64832CFB70FC00321C7D /* FirebaseAnalytics */; };
+		D2EF64862CFB70FC00321C7D /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64852CFB70FC00321C7D /* FirebaseAnalyticsOnDeviceConversion */; };
+		D2EF64882CFB70FC00321C7D /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64872CFB70FC00321C7D /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		D2EF648A2CFB70FC00321C7D /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64892CFB70FC00321C7D /* FirebaseAppCheck */; };
+		D2EF648C2CFB70FC00321C7D /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF648B2CFB70FC00321C7D /* FirebaseAppDistribution-Beta */; };
+		D2EF648E2CFB70FC00321C7D /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF648D2CFB70FC00321C7D /* FirebaseAuthCombine-Community */; };
+		D2EF64902CFB70FC00321C7D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF648F2CFB70FC00321C7D /* FirebaseCore */; };
+		D2EF64922CFB70FC00321C7D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64912CFB70FC00321C7D /* FirebaseCrashlytics */; };
+		D2EF64942CFB70FC00321C7D /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64932CFB70FC00321C7D /* FirebaseDynamicLinks */; };
+		D2EF64962CFB70FC00321C7D /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64952CFB70FC00321C7D /* FirebaseFirestoreCombine-Community */; };
+		D2EF64982CFB70FC00321C7D /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64972CFB70FC00321C7D /* FirebaseFunctions */; };
+		D2EF649A2CFB70FC00321C7D /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64992CFB70FC00321C7D /* FirebaseFunctionsCombine-Community */; };
+		D2EF649C2CFB70FC00321C7D /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF649B2CFB70FC00321C7D /* FirebaseInAppMessaging-Beta */; };
+		D2EF649E2CFB70FC00321C7D /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF649D2CFB70FC00321C7D /* FirebaseInstallations */; };
+		D2EF64A02CFB70FC00321C7D /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF649F2CFB70FC00321C7D /* FirebaseMLModelDownloader */; };
+		D2EF64A22CFB70FC00321C7D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64A12CFB70FC00321C7D /* FirebaseMessaging */; };
+		D2EF64A42CFB70FC00321C7D /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64A32CFB70FC00321C7D /* FirebasePerformance */; };
+		D2EF64A62CFB70FC00321C7D /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64A52CFB70FC00321C7D /* FirebaseRemoteConfig */; };
+		D2EF64A82CFB70FC00321C7D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64A72CFB70FC00321C7D /* FirebaseStorage */; };
+		D2EF64AA2CFB70FC00321C7D /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64A92CFB70FC00321C7D /* FirebaseStorageCombine-Community */; };
+		D2EF64AC2CFB70FC00321C7D /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64AB2CFB70FC00321C7D /* FirebaseVertexAI */; };
+		D2EF64AE2CFB716600321C7D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64AD2CFB716600321C7D /* FirebaseAnalytics */; };
+		D2EF64B02CFB738100321C7D /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D2EF64AF2CFB738100321C7D /* FirebaseFirestoreCombine-Community */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2D8E5672CDE108500A561E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D8E54E2CDE108200A561E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D8E5552CDE108200A561E7;
+			remoteInfo = BookMyStay;
+		};
+		D2D8E5712CDE108600A561E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D8E54E2CDE108200A561E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D8E5552CDE108200A561E7;
+			remoteInfo = BookMyStay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2D8E5562CDE108200A561E7 /* BookMyStay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMyStay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D8E5662CDE108500A561E7 /* BookMyStayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMyStayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D8E5702CDE108600A561E7 /* BookMyStayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMyStayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D291DD532CDE751400893191 /* Exceptions for "BookMyStay" folder in "BookMyStayTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = D2D8E5652CDE108500A561E7 /* BookMyStayTests */;
+		};
+		D291DD542CDE751400893191 /* Exceptions for "BookMyStay" folder in "BookMyStayUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = D2D8E56F2CDE108600A561E7 /* BookMyStayUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D2D8E5582CDE108200A561E7 /* BookMyStay */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D291DD532CDE751400893191 /* Exceptions for "BookMyStay" folder in "BookMyStayTests" target */,
+				D291DD542CDE751400893191 /* Exceptions for "BookMyStay" folder in "BookMyStayUITests" target */,
+			);
+			path = BookMyStay;
+			sourceTree = "<group>";
+		};
+		D2D8E5692CDE108500A561E7 /* BookMyStayTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookMyStayTests;
+			sourceTree = "<group>";
+		};
+		D2D8E5732CDE108600A561E7 /* BookMyStayUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookMyStayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D8E5532CDE108200A561E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EF64962CFB70FC00321C7D /* FirebaseFirestoreCombine-Community in Frameworks */,
+				D2EF64AC2CFB70FC00321C7D /* FirebaseVertexAI in Frameworks */,
+				D2EF64982CFB70FC00321C7D /* FirebaseFunctions in Frameworks */,
+				D2EF64A42CFB70FC00321C7D /* FirebasePerformance in Frameworks */,
+				D2EF64AA2CFB70FC00321C7D /* FirebaseStorageCombine-Community in Frameworks */,
+				D2EF64A62CFB70FC00321C7D /* FirebaseRemoteConfig in Frameworks */,
+				D291DD4A2CDE6C0500893191 /* FirebaseDatabase in Frameworks */,
+				D2EF648E2CFB70FC00321C7D /* FirebaseAuthCombine-Community in Frameworks */,
+				D2EF64882CFB70FC00321C7D /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				D291DD482CDE6C0500893191 /* FirebaseAuth in Frameworks */,
+				D2EF64862CFB70FC00321C7D /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				D2EF64922CFB70FC00321C7D /* FirebaseCrashlytics in Frameworks */,
+				D2EF64A22CFB70FC00321C7D /* FirebaseMessaging in Frameworks */,
+				D2EF64B02CFB738100321C7D /* FirebaseFirestoreCombine-Community in Frameworks */,
+				D2EF649E2CFB70FC00321C7D /* FirebaseInstallations in Frameworks */,
+				D2EF649A2CFB70FC00321C7D /* FirebaseFunctionsCombine-Community in Frameworks */,
+				D2EF648A2CFB70FC00321C7D /* FirebaseAppCheck in Frameworks */,
+				D2EF64902CFB70FC00321C7D /* FirebaseCore in Frameworks */,
+				D2EF649C2CFB70FC00321C7D /* FirebaseInAppMessaging-Beta in Frameworks */,
+				D2EF64842CFB70FC00321C7D /* FirebaseAnalytics in Frameworks */,
+				D291DD4C2CDE6C0500893191 /* FirebaseFirestore in Frameworks */,
+				D2EF64A02CFB70FC00321C7D /* FirebaseMLModelDownloader in Frameworks */,
+				D2EF64A82CFB70FC00321C7D /* FirebaseStorage in Frameworks */,
+				D2EF648C2CFB70FC00321C7D /* FirebaseAppDistribution-Beta in Frameworks */,
+				D2EF64AE2CFB716600321C7D /* FirebaseAnalytics in Frameworks */,
+				D2EF64942CFB70FC00321C7D /* FirebaseDynamicLinks in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D8E5632CDE108500A561E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D8E56D2CDE108600A561E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D8E54D2CDE108200A561E7 = {
+			isa = PBXGroup;
+			children = (
+				D2D8E5582CDE108200A561E7 /* BookMyStay */,
+				D2D8E5692CDE108500A561E7 /* BookMyStayTests */,
+				D2D8E5732CDE108600A561E7 /* BookMyStayUITests */,
+				D2D8E5572CDE108200A561E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D8E5572CDE108200A561E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D8E5562CDE108200A561E7 /* BookMyStay.app */,
+				D2D8E5662CDE108500A561E7 /* BookMyStayTests.xctest */,
+				D2D8E5702CDE108600A561E7 /* BookMyStayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D8E5552CDE108200A561E7 /* BookMyStay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D8E57A2CDE108600A561E7 /* Build configuration list for PBXNativeTarget "BookMyStay" */;
+			buildPhases = (
+				D2D8E5522CDE108200A561E7 /* Sources */,
+				D2D8E5532CDE108200A561E7 /* Frameworks */,
+				D2D8E5542CDE108200A561E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D2D8E5582CDE108200A561E7 /* BookMyStay */,
+			);
+			name = BookMyStay;
+			packageProductDependencies = (
+				D291DD472CDE6C0500893191 /* FirebaseAuth */,
+				D291DD492CDE6C0500893191 /* FirebaseDatabase */,
+				D291DD4B2CDE6C0500893191 /* FirebaseFirestore */,
+				D2EF64832CFB70FC00321C7D /* FirebaseAnalytics */,
+				D2EF64852CFB70FC00321C7D /* FirebaseAnalyticsOnDeviceConversion */,
+				D2EF64872CFB70FC00321C7D /* FirebaseAnalyticsWithoutAdIdSupport */,
+				D2EF64892CFB70FC00321C7D /* FirebaseAppCheck */,
+				D2EF648B2CFB70FC00321C7D /* FirebaseAppDistribution-Beta */,
+				D2EF648D2CFB70FC00321C7D /* FirebaseAuthCombine-Community */,
+				D2EF648F2CFB70FC00321C7D /* FirebaseCore */,
+				D2EF64912CFB70FC00321C7D /* FirebaseCrashlytics */,
+				D2EF64932CFB70FC00321C7D /* FirebaseDynamicLinks */,
+				D2EF64952CFB70FC00321C7D /* FirebaseFirestoreCombine-Community */,
+				D2EF64972CFB70FC00321C7D /* FirebaseFunctions */,
+				D2EF64992CFB70FC00321C7D /* FirebaseFunctionsCombine-Community */,
+				D2EF649B2CFB70FC00321C7D /* FirebaseInAppMessaging-Beta */,
+				D2EF649D2CFB70FC00321C7D /* FirebaseInstallations */,
+				D2EF649F2CFB70FC00321C7D /* FirebaseMLModelDownloader */,
+				D2EF64A12CFB70FC00321C7D /* FirebaseMessaging */,
+				D2EF64A32CFB70FC00321C7D /* FirebasePerformance */,
+				D2EF64A52CFB70FC00321C7D /* FirebaseRemoteConfig */,
+				D2EF64A72CFB70FC00321C7D /* FirebaseStorage */,
+				D2EF64A92CFB70FC00321C7D /* FirebaseStorageCombine-Community */,
+				D2EF64AB2CFB70FC00321C7D /* FirebaseVertexAI */,
+				D2EF64AD2CFB716600321C7D /* FirebaseAnalytics */,
+				D2EF64AF2CFB738100321C7D /* FirebaseFirestoreCombine-Community */,
+			);
+			productName = BookMyStay;
+			productReference = D2D8E5562CDE108200A561E7 /* BookMyStay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2D8E5652CDE108500A561E7 /* BookMyStayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D8E57D2CDE108600A561E7 /* Build configuration list for PBXNativeTarget "BookMyStayTests" */;
+			buildPhases = (
+				D2D8E5622CDE108500A561E7 /* Sources */,
+				D2D8E5632CDE108500A561E7 /* Frameworks */,
+				D2D8E5642CDE108500A561E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D8E5682CDE108500A561E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D2D8E5692CDE108500A561E7 /* BookMyStayTests */,
+			);
+			name = BookMyStayTests;
+			packageProductDependencies = (
+			);
+			productName = BookMyStayTests;
+			productReference = D2D8E5662CDE108500A561E7 /* BookMyStayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2D8E56F2CDE108600A561E7 /* BookMyStayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D8E5802CDE108600A561E7 /* Build configuration list for PBXNativeTarget "BookMyStayUITests" */;
+			buildPhases = (
+				D2D8E56C2CDE108600A561E7 /* Sources */,
+				D2D8E56D2CDE108600A561E7 /* Frameworks */,
+				D2D8E56E2CDE108600A561E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D8E5722CDE108600A561E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D2D8E5732CDE108600A561E7 /* BookMyStayUITests */,
+			);
+			name = BookMyStayUITests;
+			packageProductDependencies = (
+			);
+			productName = BookMyStayUITests;
+			productReference = D2D8E5702CDE108600A561E7 /* BookMyStayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D8E54E2CDE108200A561E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D2D8E5552CDE108200A561E7 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D2D8E5652CDE108500A561E7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D2D8E5552CDE108200A561E7;
+					};
+					D2D8E56F2CDE108600A561E7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D2D8E5552CDE108200A561E7;
+					};
+				};
+			};
+			buildConfigurationList = D2D8E5512CDE108200A561E7 /* Build configuration list for PBXProject "BookMyStay" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2D8E54D2CDE108200A561E7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D291DD462CDE6C0500893191 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D2D8E5572CDE108200A561E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D8E5552CDE108200A561E7 /* BookMyStay */,
+				D2D8E5652CDE108500A561E7 /* BookMyStayTests */,
+				D2D8E56F2CDE108600A561E7 /* BookMyStayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D8E5542CDE108200A561E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D8E5642CDE108500A561E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D8E56E2CDE108600A561E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D8E5522CDE108200A561E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D8E5622CDE108500A561E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D8E56C2CDE108600A561E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2D8E5682CDE108500A561E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D8E5552CDE108200A561E7 /* BookMyStay */;
+			targetProxy = D2D8E5672CDE108500A561E7 /* PBXContainerItemProxy */;
+		};
+		D2D8E5722CDE108600A561E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D8E5552CDE108200A561E7 /* BookMyStay */;
+			targetProxy = D2D8E5712CDE108600A561E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2D8E5782CDE108600A561E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2D8E5792CDE108600A561E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2D8E57B2CDE108600A561E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookMyStay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BookMyStay;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polok.BookMyStay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2D8E57C2CDE108600A561E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookMyStay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BookMyStay;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polok.BookMyStay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2D8E57E2CDE108600A561E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polok.BookMyStayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookMyStay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookMyStay";
+			};
+			name = Debug;
+		};
+		D2D8E57F2CDE108600A561E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polok.BookMyStayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookMyStay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookMyStay";
+			};
+			name = Release;
+		};
+		D2D8E5812CDE108600A561E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polok.BookMyStayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookMyStay;
+			};
+			name = Debug;
+		};
+		D2D8E5822CDE108600A561E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polok.BookMyStayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookMyStay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D8E5512CDE108200A561E7 /* Build configuration list for PBXProject "BookMyStay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D8E5782CDE108600A561E7 /* Debug */,
+				D2D8E5792CDE108600A561E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D8E57A2CDE108600A561E7 /* Build configuration list for PBXNativeTarget "BookMyStay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D8E57B2CDE108600A561E7 /* Debug */,
+				D2D8E57C2CDE108600A561E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D8E57D2CDE108600A561E7 /* Build configuration list for PBXNativeTarget "BookMyStayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D8E57E2CDE108600A561E7 /* Debug */,
+				D2D8E57F2CDE108600A561E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D8E5802CDE108600A561E7 /* Build configuration list for PBXNativeTarget "BookMyStayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D8E5812CDE108600A561E7 /* Debug */,
+				D2D8E5822CDE108600A561E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D291DD462CDE6C0500893191 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D291DD472CDE6C0500893191 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D291DD462CDE6C0500893191 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D291DD492CDE6C0500893191 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D291DD462CDE6C0500893191 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D291DD4B2CDE6C0500893191 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D291DD462CDE6C0500893191 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D2EF64832CFB70FC00321C7D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalytics;
+		};
+		D2EF64852CFB70FC00321C7D /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		D2EF64872CFB70FC00321C7D /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		D2EF64892CFB70FC00321C7D /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAppCheck;
+		};
+		D2EF648B2CFB70FC00321C7D /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		D2EF648D2CFB70FC00321C7D /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		D2EF648F2CFB70FC00321C7D /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCore;
+		};
+		D2EF64912CFB70FC00321C7D /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCrashlytics;
+		};
+		D2EF64932CFB70FC00321C7D /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseDynamicLinks;
+		};
+		D2EF64952CFB70FC00321C7D /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		D2EF64972CFB70FC00321C7D /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFunctions;
+		};
+		D2EF64992CFB70FC00321C7D /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		D2EF649B2CFB70FC00321C7D /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		D2EF649D2CFB70FC00321C7D /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseInstallations;
+		};
+		D2EF649F2CFB70FC00321C7D /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMLModelDownloader;
+		};
+		D2EF64A12CFB70FC00321C7D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMessaging;
+		};
+		D2EF64A32CFB70FC00321C7D /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebasePerformance;
+		};
+		D2EF64A52CFB70FC00321C7D /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseRemoteConfig;
+		};
+		D2EF64A72CFB70FC00321C7D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseStorage;
+		};
+		D2EF64A92CFB70FC00321C7D /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		D2EF64AB2CFB70FC00321C7D /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseVertexAI;
+		};
+		D2EF64AD2CFB716600321C7D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D291DD462CDE6C0500893191 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D2EF64AF2CFB738100321C7D /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D2D8E54E2CDE108200A561E7 /* Project object */;
+}
